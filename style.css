@@ -1,0 +1,39 @@
+.kutu{   /* boş bırakırsan etiket ismini  "." ile clas ismini  "#" ile id ismini alırsın */
+   font-size: 20px;    /* yazının büyülüğü */
+   font-family: Arial, Helvetica, sans-serif;   /*yazının cinsini */ 
+   font-weight: bold;   /* yazının kalınlığı */  
+
+   color: #434343; /* yazının rengini */
+   background-color: #e5d6d6; /* arka plan rengi */
+   
+   height: 50%;   /* yükseklik*/
+   width: 50%;   /* genişlik */
+
+   border: 7px solid blueviolet; /* çerçeve yapar renk verirsin */
+   border-radius: 20px; /*çerçeveyi ovelleştirmeye yarar */
+
+   margin: 100px 0 0 100px;  /*dışarıdan boşluk verir. saat yönü gibi düşünün 1.yukarı 2.sağ 3.aşağı 4.sol*/
+
+   padding: 20px 40px ;  /*iç boşluk verir saat yönü kuralı geçerlidir ve bu kullanımda 1.yukarıdan-aşağıdan, 2.sağdan-soldan kısayol olarak kullanılır*/
+
+   text-align: center; /* metni hizalar*/
+
+   text-transform: uppercase; /*kelimelerin harflerini büyültür küçültür*/
+
+   text-indent: 100px; /* satır başı boşluğu bırakır*/
+   
+   line-height: 20px; /*kelimenin kapladığı alan genişliği*/
+
+   word-spacing: 8px; /*kelime arası boşluk koyar*/
+}
+
+.spanClass{
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+}
+.divClass{
+    display: block;
+    width: 300px;
+    height: 400px;
+}
